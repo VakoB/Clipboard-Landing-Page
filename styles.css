@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bai Jamjuree", sans-serif;
+    color: #4C545C;
+}
+.logo-image {
+    position: relative;
+    background-image: url("background.png");
+    height: 363px;
+}
+p {
+    color: #9EABB2;
+    font-size: 20px;
+}
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 131px;
+    height: 125px;
+    width: 125px;
+}
+h1 {
+    position: absolute;
+    top: 312px;
+    left: 50%;
+    transform: translateX(-50%);
+    size: 46px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 46px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -0.3913043141365051px;
+    text-align: center;
+
+}
+
+.description {
+    position: absolute;
+    text-align: center;
+    top: 490px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.buttons {
+    position: absolute;
+    text-align: center;
+    top: 580px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+}
+.button {
+    box-shadow: 0px 10px 20px 0px #89E5C780;
+    box-shadow: 0px -3px 0px 0px #00000027 inset;
+    height: 56px;
+    width: 227px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 18px;
+    transition: 0.5s;
+}
+.one {
+    background: #26BBA4;
+    margin-right: 8px;
+    
+}
+.two {
+    background: #6174FF;
+    margin-left: 8px;
+}
+.one:hover {
+    background: #1f9583; 
+}
+.two:hover {
+    background: #4757d1; 
+}
+.snippets {
+    position: absolute;
+    top: 700px;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.snippets > p{ 
+    margin-top: 20px;
+}
+
+.benefits {
+    position: absolute;
+    top: 934px;
+    margin-right: 100px;
+}
+
+.screen {
+    width: 1212;
+    height: 572;
+    position: absolute;
+    
+    
+}
+
+.pros {
+    margin-left: 830px;
+    size: 16px;
+    text-align: center;
+}
+
+.pros > .icloud-sync{
+    margin-block: 34px;
+    size: 16px;
+    text-align: center;
+}
+
+.pros p {
+    margin-block: 15px;
+}
+
+.pros > *{
+    margin-bottom: 20px;
+}
+.access-clipboard {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 1750px;
+    text-align: center;
+}
+.ac-text > *{
+    margin-top: 19px;
+}
+.ac-image {
+    width: 812px;
+    height: 475px;
+    margin-top: 70px;
+    left: 314px;
+    margin-right: 75px;
+}
+
+.workflow {
+ 
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    align-items: center;
+    top: 2526px;
+    width: 100%;
+    /* background-color: #4757d1; */
+
+}
+.wf-text > p {
+    margin-top: 20px;
+}
+.wf-benefits { 
+    position: absolute;
+    width: 100%;
+}
+.wf-benefits > * {
+    display: inline-block;
+    margin-top: 70px;
+    width: 300px;
+    vertical-align: top;
+}
+.wf-benefits > .plain-text-snippets {
+    margin-inline: 80px;
+}
+
+.wf-benefits > * > .h3-p {
+    margin-top: 20px;
+}
+
+.partners {
+    position: absolute;
+    top: 3058px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.partners > *{
+    display: inline-block;
+    margin-inline: 20px;
+}
+
+.availability {
+    position: absolute;
+    text-align: center;
+    height: 56px;
+    top: 3300px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.buttons-second {
+    display: inline-block;
+}
+
+.a-text > p{
+    margin-block: 30px;
+}
+
+footer {
+    position: absolute;
+    background-color: #d7dbdc;
+    width: 100%;
+    top: 3800px;
+}
+
+.footer {
+    margin-block: 40px;
+}
+
+.footer > *{
+    display: inline-block;
+    text-align: center;
+
+}
+
+.footer-info {
+    vertical-align: top;
+    text-align: center;
+    margin-left: 50px;
+}
+.footer-info > * {
+    text-align: center;
+    display: inline-block;
+    margin-inline: 60px;
+    vertical-align: top;
+}
+
+.footer-info p {
+    color:#4C545C;
+}
+
+.logo-second{
+    height: 55px;
+    width: 55px;
+    margin-left: 165px;
+}
+
+.logo-second img{
+    height: 100%;
+    width: 100%;
+}
+.second-row {
+    margin-top: 20px;
+}
+
+.icons {
+    margin-inline: 40px;
+    text-align: center;
+
+}
+
+.icons > *{
+    margin-inline: 10px;
+}
