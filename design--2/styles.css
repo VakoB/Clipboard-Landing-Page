@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #28283D;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+h1 {
+    font-family: Red Hat Display;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 64px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #28283D;
+}
+
+p {
+    font-family: Red Hat Display;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #87879D;
+
+}
+
+.logo {
+    width: 119px;
+    height: 28px;
+    padding: 0px, 0.28px, 0px, 0px;
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.introduction {
+    position: absolute;
+    top: 169px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+.introduction > *{
+    display: inline-block;
+}
+
+.purpuse {
+    /* background-color: antiquewhite; */
+}
+
+.purpuse  > *{
+    margin-block: 50px;
+}
+.purpuse  > .p-text > *{
+    margin-block: 30px;
+}
+
+.p-text {
+    /* background-color: aliceblue; */
+    width: fit-content;
+    text-align: center;
+}
+.p-text > h1 {
+    width: 16ch;
+    /* background-color: #87879D; */
+}
+.p-text > p {
+    width: 44ch;
+    margin-left: 90px;
+}
+
+.buttons {
+    text-align: center;
+}
+.button {
+
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: white;
+    text-align: center;
+    transition: 0.5s;
+    margin-inline: 10px;
+}
+.first {
+    width: 193px;
+    height: 58px;
+    background: #4D96A9;
+}
+
+.first > span {
+    color: #8FE3F9;
+}
+
+.second {
+    width: 139px;
+    height: 58px;
+    background: #855FB1;
+}
+
+.first:hover {
+    background-color: #377383;
+    cursor: pointer;
+}
+
+.second:hover {
+    background-color: #5c417b;
+    cursor: pointer;
+}
+
+.first-end {
+    position: absolute;
+    top: 500px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.features {
+    position: absolute;
+    top: 950px;
+}
+
+.photoes {
+    margin-inline: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.photoes > * {
+    width: 255px;
+    height: 242px;
+}
+
