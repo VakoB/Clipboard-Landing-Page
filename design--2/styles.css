@@ -16,6 +16,15 @@ h1 {
     color: #28283D;
 }
 
+h2 {
+    font-family: Red Hat Display;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 44px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
 p {
     font-family: Red Hat Display;
     font-size: 18px;
@@ -124,8 +133,7 @@ p {
 }
 
 .features {
-    position: absolute;
-    top: 950px;
+    margin-top: 950px;
 }
 
 .photoes {
@@ -139,3 +147,34 @@ p {
     height: 242px;
 }
 
+.f-text {
+    text-align: center;
+    margin-top: 70px;
+    padding-inline: 500px;
+}
+
+p.f-add-message {
+    font-family: Red Hat Display;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 26px;
+    letter-spacing: 4px;
+    color: #4D96A9;
+
+}
+
+.f-title {
+    margin-bottom: 40px;
+    /* margin-inline: 50px; */
+}
+
+.second-end {
+    position: absolute;
+    margin-top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+footer {
+    background-image: url("image-footer.jpg");
+}
