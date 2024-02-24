@@ -145,6 +145,7 @@ p {
 .photoes > * {
     width: 255px;
     height: 242px;
+    border-radius: 10px;
 }
 
 .f-text {
