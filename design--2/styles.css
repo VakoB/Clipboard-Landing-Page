@@ -127,7 +127,7 @@ p {
 
 .first-end {
     position: absolute;
-    top: 500px;
+    top: 560px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -177,5 +177,41 @@ p.f-add-message {
 }
 
 footer {
+    margin-top: 215px;
+}
+
+.footer-image {
     background-image: url("image-footer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#4D96A9;
+    background-blend-mode: overlay;
+    display: flex;
+    justify-content: space-evenly;
+    padding-block: 100px;
+
+}
+
+.f-title-two {
+    color: white;
+}
+
+.f {
+    width: 193px;
+    height: 58px;
+    background: #855FB1;
+}
+
+.f:hover {
+    background-color: #5c417b;
+    cursor: pointer;
+}
+
+.f > span {
+    color: #D9B8FF;
+}
+
+.f-paragraph {
+    color: white;
+    max-width: 350px;
 }
