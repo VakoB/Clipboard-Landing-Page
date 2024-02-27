@@ -98,6 +98,7 @@ p {
     text-align: center;
     transition: 0.5s;
     margin-inline: 10px;
+    border: none;
 }
 .first {
     width: 193px;

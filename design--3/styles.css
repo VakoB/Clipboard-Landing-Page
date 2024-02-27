@@ -35,17 +35,24 @@ p {
     line-height: 22px;
     letter-spacing: 0px;
     text-align: center;
+    transition: 0.5s;
+    background-color: white;
+}
 
+.try-it-free-btn:hover {
+    /* background-color: #e4eaf0; */
+    background-color: #f9e8f4;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    margin: 100px;
+    margin-inline: 100px;
+    margin-top: 55px;
 }
 
 .introduction {
-    margin-top: 265px;
+    margin-top: 220px;
 }
 
 .i-picture {
@@ -95,6 +102,10 @@ p {
     margin-top: 40px;
     margin-bottom: 80px;
     transition: 0.5s;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 .i-text > button:hover {
