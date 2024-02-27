@@ -15,12 +15,20 @@ h1 {
 }
 
 p {
-    font-family: Open Sans;
+    font-family: 'Open Sans';
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0px;
-    text-align: left;
+}
+
+h2 {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0px;
+
 }
 
 .try-it-free-btn {
@@ -140,4 +148,42 @@ button:hover {
     color: #808E9A;
 }
 
+.grow-together {
+   display: flex;
+   flex-direction: column;
+   margin-top: 200px;
+}
 
+.grow-together > *{
+    flex-grow: 0;
+ }
+ 
+
+.curved-image {
+    background-image: url(bg-section-top-desktop-1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    display: flex;
+    
+}
+.g-content {
+    background-color: #F6FBFF;
+    display: flex;
+    justify-content: space-around;
+    padding-inline: 100px;
+    padding-top: 50px;
+}
+
+.g-text {
+    margin-top: 175px;
+}
+
+.g-text > p{
+    max-width: 520px;
+    margin-top: 20px;
+}
+.g-image > img {
+    width: 560px;
+    height: 560px;
+}
