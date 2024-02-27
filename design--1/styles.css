@@ -9,6 +9,7 @@
     position: relative;
     background-image: url("background.png");
     height: 363px;
+    background-size: cover;
 }
 p {
     color: #9EABB2;

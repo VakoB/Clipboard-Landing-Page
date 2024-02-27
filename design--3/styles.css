@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: #00252E;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+p {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.try-it-free-btn {
+    width: 136px;
+    height: 40px;
+    border-radius: 25px;
+    border-color: #FF52C1;
+    color: #FF52C1;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+}
+
+.introduction {
+    margin-top: 265px;
+}
+
+.i-picture {
+    text-align: center;
+}
+
+.i-text {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.i-text > p {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #00252E;
+}
+
+.i-text > p {
+    max-width: 600px;
+}
+
+.i-text > * {
+    margin-top: 25px;
+}
+
+.i-text > button {
+    width: 400px;
+    height: 80px;
+    border-radius: 50px;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+    background: #FF52C1;
+    border: none;
+    box-shadow: 0px 6px 13px 0px #00252E39;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.statistics {
+    display: flex;
+    justify-content: space-around;
+    margin-inline: 100px;
+    margin-top: 150px;
+}
+
+.statistics  h2{
+    font-family: 'Open Sans';
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 144px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.statistics p {
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #808E9A;
+}
+
+
