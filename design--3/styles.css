@@ -31,6 +31,10 @@ h2 {
 
 }
 
+footer {
+    margin-top: 100px;
+}
+
 .try-it-free-btn {
     width: 136px;
     height: 40px;
@@ -160,12 +164,10 @@ button:hover {
  
 
 .curved-image {
-    background-image: url(bg-section-top-desktop-1.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
     display: flex;
-    
 }
 .g-content {
     background-color: #F6FBFF;
@@ -173,7 +175,9 @@ button:hover {
     justify-content: space-around;
     padding-inline: 100px;
     padding-top: 50px;
+    padding-bottom: 100px;
 }
+
 
 .g-text {
     margin-top: 175px;
@@ -186,4 +190,89 @@ button:hover {
 .g-image > img {
     width: 560px;
     height: 560px;
+}
+
+
+
+
+
+.flowing-conversations {
+    margin-top: 250px;
+}
+
+.f-image > img {
+    width: 531px;
+    height: 378px;
+}
+
+.f-text {
+    margin-top: 120px;
+}
+
+.f-text > p {
+    max-width: 520px;
+    margin-top: 25px;
+}
+
+.f-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.f-content > * {
+     margin-inline: 50px;
+}
+
+.your-users {
+    margin-top: 150px;
+}
+
+.g-button > button {
+    width: 400px;
+    height: 80px;
+    border-radius: 50px;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+    background: #FF52C1;
+    border: none;
+    box-shadow: 0px 6px 13px 0px #00252E39;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    transition: 0.5s;
+}
+
+.g-button > button:hover {
+    background-color: #be2e89;
+}
+
+
+.get-started-for-free {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.f-curved-image {
+    background-color: #00252E;
+}
+
+.curved-image img {
+    width: 100%;
+}
+.curved-image-two img {
+    width: 100%;
+}
+
+.footer-content {
+    background-color: #00252E;
+}
+
+.footer-left > img {
+
 }
