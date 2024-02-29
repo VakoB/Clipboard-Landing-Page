@@ -308,6 +308,9 @@ footer p , footer h3{
     width: 320px;
     height: 48px;
     border-radius: 5px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
 }
 
 .send-email > button {
@@ -323,6 +326,12 @@ footer p , footer h3{
     background-color: #FF52C1;
     border-radius: 5px;
     margin-left: 40px;
+    transition: 0.5s;
+}
+
+.send-email > button:hover {
+    background-color: #be2e89;
+    border: none;
 }
 
 .phone {
