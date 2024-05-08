@@ -65,7 +65,6 @@ h3 {
     display: inline-block;
 }
 .button {
-    box-shadow: 0px 10px 20px 0px #89E5C780;
     box-shadow: 0px -3px 0px 0px #00000027 inset;
     height: 56px;
     width: 227px;
@@ -273,4 +272,8 @@ footer {
 
 .icons > *{
     margin-inline: 10px;
+}
+
+@media screen and (max-width: 600px){
+    
 }

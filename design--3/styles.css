@@ -355,3 +355,120 @@ footer p , footer h3{
 .footer-right > *{
     margin-top: 15px;
 }
+
+@media screen and (max-width: 600px){
+    .header {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    .try-it-free-btn{
+        margin-top: 1rem;
+    }
+    .introduction {
+        margin-top: 120px;
+    }
+    .i-picture > img {
+        height: 300px;
+    }
+
+
+    .statistics {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-inline: 20px;
+        margin-top: 150px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .statistics > *{
+        margin-top: 25px;
+    }
+
+    .statistics  h2{
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 144px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+    .g-content {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        padding-inline: 100px;
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+    .g-text {
+        margin-top: 100px;
+    }
+    .g-image > img {
+        height: 350px;
+        width: 350px;
+    }
+
+    .f-content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .f-image > img {
+        height: 200px;
+        width: 281px;
+    }
+
+    .footer-content {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 150px;
+        padding-bottom: 100px;
+        flex-direction: column-reverse;
+    }
+
+    .send-email {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .send-email > input {
+        width: 320px;
+        height: 48px;
+        border-radius: 5px;
+        border: none;
+        padding: 10px;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    
+    .send-email > button {
+        width: 160px;
+        height: 48px;
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: white;
+        background-color: #FF52C1;
+        border-radius: 5px;
+        transition: 0.5s;
+        margin-left: 0;
+    }
+
+    .footer-content {
+        display: flex;
+        align-items: center;
+    }
+    .footer-left {
+        margin-top: 100px;
+    }
+
+}
