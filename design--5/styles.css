@@ -10,6 +10,10 @@ html {
     font-family: 'Fraunces';
 }
 
+body {
+    width: 100%;
+}
+
 nav {
     color: white;
     display: flex;
@@ -73,10 +77,6 @@ h1 {
     text-align: center;
 }
 
-.icon-arrow-down {
-
-}
-
 .arrow-icon {
     text-align: center;
     /* margin-left: 4%; */
@@ -87,6 +87,7 @@ h1 {
 /* pictures + description of the service */
 
 .container {
+    max-width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -110,8 +111,9 @@ h1 {
 .t-main {
     display: flex;
     justify-content: center;
-    max-width: 100%;
+    width: 100%;
 }
+
 .message {
     display: flex;
     flex-direction: column;
@@ -318,9 +320,7 @@ h1 {
 }
 
 .img {
-    display: flex;
-    background-color: #24554A;
-    
+    display: flex;    
 }
 
 .img > img {
@@ -332,10 +332,12 @@ h1 {
 
 /* footer */
 
+
 footer {
     background-color: #90D4C6;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .footer-container {
@@ -343,17 +345,20 @@ footer {
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    margin-block: 8rem;
+    width: 300px;
+    padding-top: 50px;
 }
 
 .footer-container > ul {
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 2.5rem;
+    text-align: center;
+    gap: 20%;
 }
 
 .footer-container > ul > li {
-    margin-inline: 5rem;
     font-family: Barlow;
     font-size: 1.8rem;
     font-weight: 600;
@@ -391,9 +396,22 @@ footer {
         background-color: #50bcf4;
         padding-bottom: 30rem;
     }
-    h1 {
-        font-size:3.5rem;
-        letter-spacing: 0.275rem;
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .footer-container > ul {
+        justify-content: space-around;
+        gap: 1rem;
+    }
+    .logo img{
+        width: 15rem;
     }
 
 }
@@ -403,6 +421,117 @@ footer {
         justify-content: center;
     }
 
+    .container {
+        display: flex;
+        flex-direction: column;
+      }
+
+    .container > * {
+        width: 100%;
+    }
+
+    .t {
+        order: 1;
+    }
+
+    .first {
+        order: 2;
+    }
+
+    .s {
+        order: 3;
+    }
+    
+    .second {
+        order: 4;
+    }
+
+    .graphics-design {
+        order: 5;
+    }
+
+    .photography {
+        order: 6;
+    }
+    
+    .testimonials {
+        order: 7;
+    }
+
+    .testimonials h1 {
+        font-size: 1rem;
+    }
+
+    .photos {
+        display: grid;
+        order: 8;
+        margin-top: 10rem;
+    }
+
+    .img > img {
+        height: 40rem;
+        max-width: 50%;
+        object-fit: cover;
+    }
+
+    .review-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .review {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .review > * {
+        margin-top: 2rem;
+    }
+
+    .picture {
+        background-size: cover;
+        background-position: center;
+        padding: 50%;
+    }
+
+    .t-main {
+        width: 100%;
+    }
+
+    .message > h2 {
+        font-family: Fraunces 9pt Soft;
+        font-size: 3rem;
+        font-weight: 900;
+        line-height: 49.32px;
+        letter-spacing: -0.2857142984867096px;
+        text-align: left;
+    
+    }
+
+    .description {
+        font-size: 1.5rem;
+    }
+    .learn-more {
+        font-size: small;
+    }
+
+    h1 {
+        font-size:3.5rem;
+        letter-spacing: 0.275rem;
+    }
+
+    .content {
+        padding-top: 15rem;
+    }
+
+    .content h2{
+        font-size: 2.5rem;
+    }
+
+    .content p {
+        font-size: 1.5rem;
+    }
+    
 
 }
 
