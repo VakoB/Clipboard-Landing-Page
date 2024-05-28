@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    background-image: url('image-hero.jpg');
+    padding-bottom: 7rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-block: 6rem;
+}
+
+.nav-items > ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.nav-items > ul > li {
+    font-family: Alata;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;    
+    color: white;
+}
+
+
+.title {
+    font-family: Josefin Sans;
+    font-size: 72px;
+    font-weight: 300;
+    line-height: 70px;
+    text-align: left;
+    color: white;
+    border: 2px solid white;
+    padding: 3rem;
+    max-width: 650px;
+    margin-left: 10rem;
+    margin-top: 5rem;
+}

@@ -19,7 +19,7 @@ body {
     max-width: 120rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .container > div > h2 {
