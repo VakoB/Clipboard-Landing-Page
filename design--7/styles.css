@@ -119,7 +119,7 @@ main {
     flex-direction: column;
     background-color: white;
     width: 54rem;
-    right: -390px;
+    right: -35%;
     position: absolute;
 }
 
@@ -146,12 +146,13 @@ main {
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    margin-top: 10rem;
+    margin-top: 20rem;
 }
 
 .our-creations > .second-title {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .second-title > h2 {
@@ -174,6 +175,7 @@ main {
     font-weight: 400;
     line-height: 14px;
     letter-spacing: 5px;
+    transition: .2s;
 }
 
 .second-title > button:hover {
@@ -182,3 +184,147 @@ main {
     cursor: pointer;
 }
 
+.images-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+
+.first-row-images {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    gap: 3rem;
+}
+
+.second-row-images {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.first-row-images > .item p {
+    max-width: 144px;
+}
+
+.second-row-images > .item p {
+    max-width: 169px;
+}
+
+.item {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 45rem;
+    background-position: center;
+}
+
+.item  p {
+    font-family: Josefin Sans;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-left: 15%;
+}
+
+.i--1 {
+    background-image: url('image-deep-earth.jpg');
+}
+
+.i--2 {
+    background-image: url('image-night-arcade.jpg');
+}
+
+.i--3 {
+    background-image: url('image-soccer-team.jpg');
+}
+
+.i--4 {
+    background-image: url('image-grid.jpg');
+}
+
+.i--5 {
+    background-image: url('image-from-above.jpg');
+}
+
+.i--6 {
+    background-image: url('image-pocket-borealis.jpg');
+}
+
+.i--7 {
+    background-image: url('image-curiosity.jpg');
+}
+
+.i--8 {
+    background-image: url('image-fisheye.jpg');
+}
+
+
+
+
+footer {
+    background-color: black;
+    margin-top: 20rem;
+    padding-bottom: 4rem;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4rem;
+    align-items: center;
+}
+
+.logos > img {
+    width: 144px;
+    height: 24px;
+    top: 2780px;
+    left: 165px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.social-media-logos > img {
+    margin-inline: 6px;
+    height: 24px;
+    width: 24px;
+}
+
+.footer-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.footer-navbar > ul {
+    list-style: none;
+    color: white;
+    display: flex;
+    font-family: Alata;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    justify-content: space-between;
+    width: 27.5%;
+}
+
+.copyright {
+    font-family: Alata;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    opacity: 50%;    
+    color: white;
+}
+
+
+.footer-container {
+    margin-inline: 10rem;
+}
