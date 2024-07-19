@@ -170,6 +170,22 @@ header {
     transform: scaleX(1);
 }
 
+nav {
+    position: relative;
+}
+
+.dropdown {
+    position: absolute;
+    right: 10%;
+    display: none;
+}
+
+.dropdown > img {
+    width: 4rem;
+    filter: brightness(0) invert(1);
+}
+
+
 
 
 .title {
@@ -212,8 +228,15 @@ main {
 .vr .img-box {
     z-index: -1;
     opacity: 0;
-    transform: translateX(-100%);
+    transform: translateX(-90%);
     transition: transform 1s;
+    background-image: url('image-interactive.jpg');
+    padding: 35rem;
+    padding-inline: 30rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
     /* animation: vrImg 1s; */
 }
 
@@ -284,7 +307,7 @@ main {
     color: black;
 }
 
-.second-title > button {
+.see-all {
     width: 15.7rem;
     height: 4rem;
     opacity: 0px;
@@ -298,10 +321,14 @@ main {
     transition: .2s;
 }
 
-.second-title > button:hover {
+.see-all:hover {
     background-color: black;
     color: white;
     cursor: pointer;
+}
+
+.mobile {
+    display: none;
 }
 
 .images-container {
@@ -352,7 +379,7 @@ main {
 .item:hover {
     cursor: pointer;
     color: black;
-    font-weight: 1000px;
+    
     opacity: 1;
     transition: color 0.5s ease-in, font-weight 0.5s ease-in;
 }
@@ -382,7 +409,7 @@ main {
     text-align: left;
     margin-bottom: 30px;
     margin-left: 15%;
-    z-index: 2;
+    z-index: 1;
     position: relative;
 }
 
@@ -590,3 +617,206 @@ footer {
     transform: translateX(0);
 }
 
+
+@media (max-width: 1342px) {
+    .vr-text {
+        right: -75%;
+    }
+
+    .item {
+        place-items: center;
+        justify-content: center;
+        align-items: center;
+        align-content: center;        
+    }
+
+    .item > p {
+        font-size: 20px;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+
+    .first-row-images > .item p {
+        max-width: 100%;
+    }
+    
+    .second-row-images > .item p {
+        max-width: 100%;
+    }
+
+    .footer-navbar ul {
+        width: 40%
+    }
+}
+
+@media (max-width: 1220px) {
+    .vr-text {
+        right: -90%;
+    }
+}
+
+@media (max-width: 1090px) {
+    main {
+        margin-inline: 4rem;
+        justify-content: center;
+        text-align: center;
+    }
+    .vr {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0;
+        margin-top: 15rem;
+    }
+
+
+    .vr-text {
+        position: static;
+        width: 80%;
+        right: 0;
+        z-index: 0;
+        margin: 0;
+        margin-top: 70px;
+        padding: 0;
+        padding-top: 5rem;
+    }
+
+    .vr-text p {
+        text-align: center;
+    }
+
+    .vr-text h2 {
+        text-align: center;
+    }
+
+    .vr .img-box {
+        z-index: 0;
+        width: 80%;
+        opacity: 0;
+
+    }
+
+    .vr .img-box > img {
+        
+        /* animation: vrImg 1s; */
+    }
+    .footer-navbar ul {
+        width: 100%;
+        
+    }
+    .copyright {
+        margin-right: -15rem;
+    }
+}
+
+
+@media (max-width: 845px) {
+
+    .title {
+        font-size: 40px;
+        margin-right: 5rem;
+    }
+
+    .dropdown {
+        display: inline-block;
+    }
+
+    .dropdown:hover {
+        cursor: pointer;
+    }
+
+    .nav-items { 
+        display: none;
+    }
+
+}
+
+@media (max-width: 682px) {
+
+    .vr {
+        width: 100%;
+        margin-inline: 0;
+    }
+
+    .vr .img-box {
+        width: 100%;
+        height: auto;
+    }
+    
+    .first-row-images {
+        flex-direction: column;
+    }
+    .second-row-images {
+        flex-direction: column;
+    }
+
+    .item {
+        padding-top: 10rem;
+        background-size: 100%;
+        
+    }
+    
+    .i--3 {
+        background-position: 10px 10px;
+    }
+    .item p {
+        font-size: 32px;
+    }
+    
+    .footer-navbar > ul {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .footer-navbar > ul > li {
+        margin-top: 15px;
+        width: fit-content;
+    }
+
+    .logos {
+        flex-direction: column;
+    }
+    .social-media-logos {
+        margin-top: 4rem;
+    }
+
+    .footer-navbar {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .copyright {
+        margin: 0;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .see-all-mobile{
+        margin-top: 50px;
+    }
+
+    .mobile {
+        display: inline-block;
+    }
+    .desktop {
+        display: none;
+    }
+}
+
+@media (max-width: 609px) {
+
+    .vr .img-box {
+        background-size: cover;
+        padding: 0;
+        padding-inline: 50%;
+        padding-block: 50%;
+    }
+
+
+}
