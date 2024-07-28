@@ -9,80 +9,81 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Document</title>
   </head>
-  <body class="ms-[145px] me-[145px] font-Inter">
+  <body class="ms-[145px] me-[145px] font-Inter max-lg:ms-[45px] max-lg:me-[45px] max-md:ms-[25px] max-md:me-[25px] max-md:hover:cursor-pointer">
     <header>
-      <nav class="flex justify-between mt-[70px] items-center h-20">
+      <nav class="flex justify-between mt-[70px] items-center h-20 max-lg:mt-[30px]">
         <div class="hover:cursor-pointer">
           <img src="./src/images/logo.svg" alt="logo" />
         </div>
         <div class="flex">
-          <ul class="flex gap-7 text-[15px]">
-            <li class="hover:text-[#F15D51] hover:cursor-pointer">Home</li>
-            <li class="hover:text-[#F15D51] hover:cursor-pointer">New</li>
-            <li class="hover:text-[#F15D51] hover:cursor-pointer">Popular</li>
-            <li class="hover:text-[#F15D51] hover:cursor-pointer">Trending</li>
-            <li class="hover:text-[#F15D51] hover:cursor-pointer">Categories</li>
+          <ul class="flex gap-7 text-[15px] max-md:hidden">
+            <li class="hover:text-[#F15D51] hover:cursor-pointer transition-colors">Home</li>
+            <li class="hover:text-[#F15D51] hover:cursor-pointer transition-colors">New</li>
+            <li class="hover:text-[#F15D51] hover:cursor-pointer transition-colors">Popular</li>
+            <li class="hover:text-[#F15D51] hover:cursor-pointer transition-colors">Trending</li>
+            <li class="hover:text-[#F15D51] hover:cursor-pointer transition-colors">Categories</li>
           </ul>
+          <img src="./src//images/icon-menu.svg" alt="icon-menu" class="hidden max-md:inline-block">
         </div>
       </nav>
     </header>
-    <main class="pb-32">
+    <main class="pb-32 max-md:pb-16">
       <!-- main container -->
-      <div class="grid grid-cols-3 grid-rows-[1fr 200px 129px] mt-5 gap-5">
-        <div style="background-image: url('./src/images/image-web-3-desktop.jpg');" class="bg-cover h-[300px] bg-center col-span-2"></div>
-        <div class="bg-[#00001A] text-white row-span-2 flex flex-col pb-[15%]">
+      <div class="grid grid-cols-3 mt-5 gap-5 max-md:grid-cols-1 max-md:gap-0">
+        <div style="background-image: url('./src/images/image-web-3-desktop.jpg');" class="bg-cover h-[300px] bg-center col-span-2 max-md:col-span-1 max-md:w-[100%] max-md:"></div>
+        <div class="bg-[#00001A] text-white row-span-2 flex flex-col pb-[15%] max-md:row-[4/5] max-md:mt-16">
           <h2 class="text-[40px] font-bold text-[#E9AA52] ml-5 mr-5 mt-5 font-Inter">New</h2>
           <section class="flex flex-col justify-between mt-[6%]">
             <section class="border-b-[1px] ml-5 mr-5 border-[#5E607A] pb-7">
-              <p class="text-[20px] font-extrabold hover:text-[#E9AA52] hover:cursor-pointer">Hydrogen VS Electric Cars</p>
+              <p class="text-[20px] font-extrabold hover:text-[#E9AA52] hover:cursor-pointer transition-colors">Hydrogen VS Electric Cars</p>
               <p class="mt-[2%] text-[#C5C6CE] text-[15px]">Will hydrogen-fueled cars ever catch up to EVs?</p>
             </section>
             <section class="border-b-[1px] ml-5 mr-5 border-[#5E607A] pt-7 pb-7">
-              <p class="text-[20px] font-extrabold hover:text-[#E9AA52] hover:cursor-pointer">The Downsides of AI Artistry</p>
+              <p class="text-[20px] font-extrabold hover:text-[#E9AA52] hover:cursor-pointer transition-colors">The Downsides of AI Artistry</p>
               <p class="mt-[2%] text-[#C5C6CE] text-[15px]">What are the possible adverse effects of on-demand AI image generation?</p>
             </section>
             <section class=" ml-5 mr-5 pt-7">
-              <p class="text-[20px] font-extrabold hover:text-[#E9AA52] hover:cursor-pointer">Is VC Funding Drying Up?</p>
+              <p class="text-[20px] font-extrabold hover:text-[#E9AA52] hover:cursor-pointer transition-colors">Is VC Funding Drying Up?</p>
               <p class="mt-[2%] text-[#C5C6CE] text-[15px]">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
             </section>
           </section>
         </div>
-        <div class="title">
-          <h1 class="text-[56px] font-extrabold leading-[56px] mr-7">The Bright Future of Web 3.0?</h1>
+        <div class="title max-md:row-[2/3]">
+          <h1 class="text-[56px] font-extrabold leading-[56px] mr-7 max-md:mt-7">The Bright Future of Web 3.0?</h1>
         </div>
-        <div class="flex flex-col paragraph justify-between">
+        <div class="flex flex-col paragraph justify-between max-md:row-[3/4] max-md:mt-5">
           <p class="text-[15px] text-[#5E607A] mr-3">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
-          <button class="bg-[#F15D51] text-white text-[14px] font-bold w-[185px] h-[48px] tracking-[4.38px] hover:bg-[#00001A]">READ MORE</button>
+          <button class="bg-[#F15D51] text-white text-[14px] font-bold w-[185px] h-[48px] tracking-[4.38px] hover:bg-[#00001A] max-md:mt-5 transition-colors">READ MORE</button>
         </div>
 
 
-        <div class="flex w-[100%] justify-between col-span-3 gap-5 mt-14">
+        <div class="flex w-[100%] justify-between col-span-3 gap-5 mt-14 max-md:flex-col">
           
-          <div class="flex">
-            <div style="background-image: url('./src/images/image-retro-pcs.jpg');"  class="bg-cover bg-center w-[100px] h-[127px]"></div>
-            <div class="ml-5">
+          <div class="flex max-md:ml-[7%]">
+            <div style="background-image: url('./src/images/image-retro-pcs.jpg');"  class="bg-cover bg-center w-[100px] h-[127px] max-md:w-[25%] max-sm:w-[50%]"></div>
+            <div class="ml-5 max-md:w-[100%]">
               <p class="text-[#C5C6CE] text-[32px] font-bold">01</p>
-              <p class="text-[#00001A] text-[18px] font-extrabold hover:cursor-pointer hover:text-[#F15D51]">Reviving Retro PCs</p>
+              <p class="text-[#00001A] text-[18px] font-extrabold hover:cursor-pointer hover:text-[#F15D51] transition-colors">Reviving Retro PCs</p>
               <p class="text-[#5E607A] text-[15px]">What happens when old PCs are given modern upgrades?</p>
             </div> 
             
           </div>
 
-          <div class="flex">
-            <div style="background-image: url('./src/images/image-top-laptops.jpg');"  class="bg-cover bg-center w-[100px] h-[127px]"></div>
-            <div class="ml-5">
+          <div class="flex max-md:ml-[7%]">
+            <div style="background-image: url('./src/images/image-top-laptops.jpg');"  class="bg-cover bg-center w-[100px] h-[127px] max-md:w-[25%] max-sm:w-[50%]"></div>
+            <div class="ml-5 max-md:w-[100%]">
               <p class="text-[#C5C6CE] text-[32px] font-bold">02</p>
-              <p class="text-[#00001A] text-[18px] font-extrabold hover:cursor-pointer hover:text-[#F15D51]">Top 10 Laptops of 2022</p>
+              <p class="text-[#00001A] text-[18px] font-extrabold hover:cursor-pointer hover:text-[#F15D51] transition-colors">Top 10 Laptops of 2022</p>
               <p class="text-[#5E607A] text-[15px]">Our best picks for various needs and budgets.</p>
             </div>
             
           </div>
 
-          <div class="flex">
-            <div style="background-image: url('./src/images/image-gaming-growth.jpg');"  class="bg-cover bg-center w-[100px] h-[127px]"></div>
-            <div class="ml-5">
+          <div class="flex max-md:ml-[7%]">
+            <div style="background-image: url('./src/images/image-gaming-growth.jpg');"  class="bg-cover bg-center w-[100px] h-[127px] max-md:w-[25%] max-sm:w-[50%]"></div>
+            <div class="ml-5 max-md:w-[100%]">
               <p class="text-[#C5C6CE] text-[32px] font-bold">03</p>
-              <p class="text-[#00001A] text-[18px] font-extrabold hover:cursor-pointer hover:text-[#F15D51]">The Growth of Gaming</p>
+              <p class="text-[#00001A] text-[18px] font-extrabold hover:cursor-pointer hover:text-[#F15D51] transition-colors">The Growth of Gaming</p>
               <p class="text-[#5E607A] text-[15px]">How the pandemic has sparked fresh opportunities.</p>
             </div>
           </div>
