@@ -1,0 +1,104 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
+
+body {
+  background-color: #151515;
+  margin-inline: 10%;
+}
+
+nav {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-media-logos {
+  display: flex;
+  justify-content: space-between;
+  gap: 15%;
+  margin-right: 7%;
+}
+
+.social-media-logos > img {
+  height: 24px;
+}
+
+.social-media-logos > img:hover {
+  cursor: pointer;
+}
+
+.absolute-items {
+  position: relative;
+}
+
+.profile-image {
+  position: absolute;
+  width: 445px;
+  right: 0;
+  z-index: -1;
+  background-color: #242424;
+}
+
+.profile-image > img {
+  right: 0;
+  width: 445px;
+  margin-top: 10px;
+}
+
+.logo {
+  font-size: 32px;
+  z-index: 1;
+}
+
+.logo,
+.social-media-logos {
+  margin-top: 39px;
+}
+
+.title {
+  margin-top: 130px;
+  z-index: 1;
+}
+
+.ring--1 {
+  position: absolute;
+  width: 530px;
+  right: 84%;
+  top: 155px;
+  z-index: -2;
+}
+
+.ring--2 {
+  position: absolute;
+  right: 31.5%;
+  top: 521px;
+}
+
+.author {
+  display: flex;
+  gap: 1%;
+}
+
+.description {
+  font-size: 18px;
+  width: 350px;
+  margin-top: 2rem;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.contact-me {
+  margin-top: 5rem;
+}
+
+h1 {
+  font-size: 88px;
+}
