@@ -11,9 +11,9 @@ Meet makes it easy to connect with others face-to-face virtually and collaborate
 1. Clone the repo:
 
    ```bash
-   git clone https://github.com/your-username/Clipboard-Landing-Page.git
+   git clone https://github.com/VakoB/HTML-CSS-miniprojects.git
 
-2. Open index.html in your browser.
+2. Open design--2/index.html in your browser.
 
 Happy coding! 🔥
    
