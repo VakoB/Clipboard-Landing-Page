@@ -1,3 +1,5 @@
+
+/* reset */
 * {
     margin: 0;
     padding: 0;
@@ -13,6 +15,13 @@ html {
 body {
     width: 100%;
 }
+
+
+/* animations */
+
+
+
+/* elements */
 
 nav {
     color: white;
@@ -383,7 +392,6 @@ footer {
 
 .logos > *:hover {
     cursor: pointer;
-    filter: brightness(0) invert(1);
 }
 
 
